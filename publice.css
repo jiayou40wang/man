@@ -1,0 +1,122 @@
+/*网页的主体的样式设计*/
+body {
+    width: 1300px;
+    height: 1950px;
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: -650px;
+    margin-left: 50%;
+}
+.title {
+    width: 100%;
+    height: 100px;
+    background-color: #249cad;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.title-name {
+    font-size: 30px;
+    font-family: 楷体;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.login {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+}
+.login:hover {
+    cursor: pointer;
+    color:rgb(255, 255, 255,0.7);
+}
+#backp {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    border: none;
+}
+#backp:hover {
+    cursor: pointer;
+    color:rgb(255, 255, 255,0.7);
+}
+/*下拉菜单*/
+.es {
+    z-index: 100;
+    width: 150px;
+    height: 250px;
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+.es:hover .ek button{
+    display: block;
+}
+.xlb {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+.xlb:hover {
+    cursor: pointer;
+    color: rgb(187, 187, 187);
+}
+.ek {
+    width: 100%;
+    height: 150px;
+    border: none;
+    position: absolute;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0px;
+}
+.ek button {
+    display: none;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:0.2px solid rgb(212, 212, 212);
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.ek button:hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+#clock {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #f8f8f8;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
