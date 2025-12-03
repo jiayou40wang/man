@@ -1,0 +1,203 @@
+.kj {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.jx {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wn {
+    width: 1100px;
+    height: 500px;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+.zuoa {
+    z-index: 100;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.zx {
+    z-index: 100;
+    font-size: 30px;
+    font-weight: 800;
+    color: #094992;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+.rw {
+    width: 100%;
+    height: 350px;
+    border:none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.rwk {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.yye {
+    z-index: 100;
+    width: 1100px;
+    height: 350px;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 1n 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.tc {
+    z-index: 100;
+    width: 250px;
+    height: 340px;
+    border: none;
+    position: relative;
+}
+.tcb {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.tcb img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.tcb img:hover{
+    transform: scale(1.1);
+}
+.tzt {
+    font-size: 13px;
+    position: relative;
+    top: -4px;
+    left: 0px;
+}
+.skk {
+    width: 1100px;
+    height: 500px;
+    border: none;
+    position: absolute;
+    top: 1150px;
+    left: 100px;
+}
+.qa {
+    z-index: 100;
+}
+.oa {
+    z-index: 100;
+    width: 250px;
+    height: 170px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: transform 0.5s ease 0.5s;
+}
+.oa:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.ob {
+    z-index: 100;
+    width: 250px;
+    height: 170px;
+    border-radius: 5px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    transition: transform 0.5s ease 0.5s;
+}
+.ob:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.yw {
+    overflow: hidden;
+    z-index: 100;
+    width: 680px;
+    height: 368px;
+    border: none;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.ql {
+    cursor: pointer;
+    width: 340px;
+    height: 184px;
+    border: 1px solid rgb(242, 242, 242);
+    position: relative;
+}
+.ex {
+    font-size: 20px;
+    font-weight: 600;
+    white-space: pre;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+.ew {
+    font-size: 15px;
+    color: gray;
+    white-space: pre;
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+/*边框隐藏*/
+#s {
+    border-top: none;
+    border-left: none;
+}
+#d {
+    border-top: none;
+    border-right: none;
+}
+#f {
+    border-bottom: none;
+    border-left: none;
+}
+#g {
+    border-bottom: none;
+    border-right: none;
+}
+
+.other {
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    background-color: #249cad;
+    position: absolute;
+    top: 1700px;
+}
+.foo {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+}

@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>知库图书馆官网-网站登录</title>
+    <link rel="icon" href="./logo.jpg">
+    <link rel="stylesheet" href="./publice.css">
+    <link rel="stylesheet" href="./denglu.css">
+</head>
+<style>
+    .error {
+        color: red;
+    }
+</style>
+<body style="height: 800px;">
+    <header class="title">
+        <img class="logo" src="./logox.png" alt="">
+        <p class="title-name">知库图书馆•数字图书馆•国家典籍博物馆</p>
+        <button id="backa" class="back">返回首页</button>
+        <script src="./yemiantiaozhuanb.js"></script>
+        <div id="clock">加载中...
+            <script src="./sz.js"></script>
+        </div>
+    </header>
+    <div>
+        <img class="carousel-thum" src="./a1.png" alt="">
+        <main class="am show" id="login-form">
+            <div class="main">
+                <img class="gy" src="./qw.png" alt="">
+<!--留言信息-->
+                <div class="liu">
+                    <label for="remark" >
+                        留言信息:
+                    </label>
+                    <textarea name="remark" id="remark" placeholder="请输入其他留言信息"></textarea>
+                </div>
+                <p class="tiz">——<span style="color: rgb(125, 125, 125);">登录知库</span>——</p>
+                <form id="login-form-inner" class="oe">
+                    <fieldset class="form">
+                        <div>
+                            <label for="username">用户名:</label>
+                            <input type="text" id="username" placeholder="请输入用户名" pattern="[A-Za-z]+" required>
+                            <span id="username-error" class="error"></span>
+                        </div>
+                        <div>
+                            <label for="password">密&nbsp;&nbsp;&nbsp;&nbsp;码:</label>
+                            <input type="password" id="password" placeholder="请输入正确的密码" pattern="\d+" required>
+                            <span id="password-error" class="error"></span>
+                        </div>
+                    </fieldset>
+                    <!--各种选项框的内容-->
+                    <main class="fxk">
+                        <h1>个人选项</h1>
+                        <p class="o">性别:</p>
+                            <div class="fc">
+                                <label><input type="radio" name="gender" value="male" required>男</label>
+                                <label><input type="radio" name="gender" value="male" required>女</label>
+                            </div>
+                            <div class="che">
+                                <label for="city">所在城市:</label>
+                                <select  id="city">
+                                    <option value="">请选择城市</option>
+                                    <option value="beijing">北京</option>
+                                    <option value="shanghai">上海</option>
+                                    <option value="guangzhou">广州</option>
+                                    <option value="shenzhen">深圳</option>
+                                    <option value="chengdu">成都</option>
+                                </select>
+                            </div>
+                            <div class="checkbox">
+                                <label class="vs">喜欢类型:</label>
+                                <p class="wb">(可不填)</p>
+                                <div class="zon">
+                                    <label> 
+                                        <input type="checkbox">
+                                        科幻
+                                    </label>
+                                     <label> 
+                                        <input type="checkbox">
+                                        悬疑
+                                    </label>
+                                     <label> 
+                                        <input type="checkbox">
+                                        言情
+                                    </label>
+                                     <label> 
+                                        <input type="checkbox">
+                                        诗歌
+                                    </label>
+                                     <label> 
+                                        <input type="checkbox">
+                                        历史
+                                    </label>
+                                     <label> 
+                                        <input type="checkbox">
+                                        哲学
+                                    </label>
+                                </div>
+                            </div>
+                    </main>
+                    <div class="yshsh">
+                        <button class="gs" id="login">立即登录</button>
+                        <button class="gz" id="reset">重置用户名</button>
+                        <button class="gv" id="reseta">重置密码</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <main class="wj" id="success-message">
+            <a class="ul" href="./index.html">返回首页</a>
+            <p class="ts">——<span>恭喜你登录成功</span>——</p>
+            <img class="yc" src="./logox.png" alt="">
+            <p class="lm">知库图书馆官网:收藏人类文明，点亮你的认知星空！</p>
+            <button class="jik" id="jik">点击开始探索之旅</button>
+        </main>
+    </div>
+    <script src="./denglugeshijianyan.js"></script>
+    <script src="./ddll.js"></script>
+<footer class="other">
+    <p class="foo">知库图书馆•数字图书馆•国家典籍博物馆官网 版权所有 &copy; 2025-2031 知库图书馆 - 版权所有 </p>
+</footer>
+</body>
+</html>
